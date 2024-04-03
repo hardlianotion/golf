@@ -12,6 +12,7 @@ project/
 
 .bsp
 .metals
+.jvmopts
 
 ### Eclipse ###
 .apt_generated
