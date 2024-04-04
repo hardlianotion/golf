@@ -12,8 +12,7 @@ object Golf:
   object Player:
 
     def fromString (str: String): Player =
-      val (name, paramStr) = str.splitAt (26)
-      val Array (meanStr, stdStr) = paramStr.trim.split ("\t")
+      val Array (name, meanStr, stdStr) = str.trim.split ("\t")
 
       val mean = meanStr.trim.toDouble
       val std = stdStr.trim.toDouble
