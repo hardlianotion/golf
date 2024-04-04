@@ -1,8 +1,7 @@
 package golf
 
-import scala.collection.{IndexedSeqView, MapView, SeqView, View}
-import scala.io.{BufferedSource, Source}
-import scala.util.Using
+import scala.collection.{IndexedSeqView, MapView, View}
+import scala.io.Source
 import scala.util.Random
 
 
